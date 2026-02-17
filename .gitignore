@@ -1,0 +1,5 @@
+Book/*.pdf
+*.pdf
+*.class
+out/
+.idea/
