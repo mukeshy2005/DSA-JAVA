@@ -38,20 +38,40 @@ i is 2
 i is 3
 i is greater then 3  */
         // if write the same code using if-else-if statemnent
-		int k = 1;
-		if(k == 1) {
-			System.out.println(" k is 1");
-		}
-		else if(k == 2) {
-			System.out.println("k is 2");
-		}
-		else if(k == 3) {
-			System.out.println("k is 3");
-		}
-		else {
-			System.out.println("k is greater then 3 ");
-		} // o/p will be k is 1 because in if-else-if ladder if a statement is true then it wont check the other statements or if a statement is false then it will check other statement		
+		// int k = 1;
+		// if(k == 1) {
+		// 	System.out.println(" k is 1");
+		// }
+		// else if(k == 2) {
+		// 	System.out.println("k is 2");
+		// }
+		// else if(k == 3) {
+		// 	System.out.println("k is 3");
+		// }
+		// else {
+		// 	System.out.println("k is greater then 3 ");
+		// } // o/p will be k is 1 because in if-else-if ladder if a statement is true then it wont check the other statements or if a statement is false then it will check other statement		
 		
 		 
+
+		 int j = 5;
+        int k = 1;
+        switch(j) {
+            case 4:
+                System.out.println("j is 4");
+                break;
+            case 5:
+                switch(k) {
+                    case 1:
+                        switch(j) {
+
+                        }
+                    case 2:
+                        break;
+                }
+            default:
+                System.out.println("j is not 4 && 5");
+                break;
+			}
 	}
 }
