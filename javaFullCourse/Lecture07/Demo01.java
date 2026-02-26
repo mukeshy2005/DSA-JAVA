@@ -17,7 +17,7 @@ public class Demo01 {
     else {
 	    System.out.println(" i is odd number ");
     } */
-
+/*
 	    int i = 10;
 	    if(i < 20 ) {
 		    if(i > 5 ) {
@@ -30,6 +30,20 @@ public class Demo01 {
 	    else{
 		    System.out.println("will not execute ");
 	    }
-
+*/
+	    // if-else-if ladder
+        int i = 7;
+	    if( i == 5) {
+		    System.out.println("i is 5 ");
+	    }
+	    else if(i  == 7) {
+		    System.out.println("i is 7" );
+	    }
+	    else if(i == 9) {
+		    System.out.println("i is 9");
+	    }
+	    else if(i == 10) {
+		    System.out.println("i is 10");
+	    }// so it just like a ladder if a statement is true then it wont check the other statements or if a statement is false then it will check other statement 
     }
  }
