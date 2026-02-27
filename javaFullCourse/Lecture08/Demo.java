@@ -9,9 +9,15 @@ public class Demo {
 		//     i++;
 	    // }
 
-        int j = 0;
-        while ( j++ < 10 ) {
-            System.out.println(j);
-        }
+        // int j = 0;
+        // while ( j++ < 10 ) {
+        //     System.out.println(j);
+        // }
+
+        // do while
+        do {
+            System.out.println(i);
+            i++;
+        } while (i <= 10);
     }
 }
