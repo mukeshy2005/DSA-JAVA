@@ -16,7 +16,7 @@ public class Solution {
 		   System.out.println();
 	   }
            */
-
+/*
        //Question 2: Print Perpendicular Line (Easy)
        System.out.println("enter number ");
        int n = sc.nextInt();
@@ -29,7 +29,23 @@ public class Solution {
    }
 	   }
    System.out.println();
-       }
+       }*/
+	   // Draw a right angled triangle 
+	   System.out.println("enter number");
+	   int n = sc.nextInt();
+
+	 /*  for(int i = 1; i<=n; i++) {// for printing reverse triangle we need to change (int i = n; i >=1; i--)
+		   for(int j = 1; j<=i; j++) {// keep j as it ies 
+			   System.out.print("*");
+		   }
+		   System.out.println();
+	   }*/
+	   for(int i = n; i >=1;i--){
+		   for(int j = 1; j<=i;j++){
+			   System.out.print("*");
+		   }
+		   System.out.println();
+	   }
    }
 
 }
