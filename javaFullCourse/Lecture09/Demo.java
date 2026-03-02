@@ -27,8 +27,28 @@ public class Demo {
         // System.out.println(arr[1]);
         
         // to print all the array using loops again
-        for(int i = 0 ; i < arr.length; i++) { // arr.length is used to get the size of the array
-            System.out.println(arr [i]);
+        // for(int i = 0 ; i < arr.length; i++) { // arr.length is used to get the size of the array
+        //     System.out.println(arr [i]);
+        // }
+
+        // 2-D array.
+        int [][] marks = new int [2][2];
+        // Storing marks
+        marks[0][0] = 20;
+        marks[0][1] = 30;
+        // marks[0][2] = 40;
+        marks[1][0] = 50;
+        marks[1][1] = 60;
+        // marks[1][2] = 70;
+        // marks[2][0] = 80;
+        // marks[2][1] = 90;
+        // marks[2][2] = 100;
+        // to print marks we can use nested loops;
+        for(int row = 0; row < 2; row++) {
+            for(int col = 0; col < 2; col++) {
+                System.out.print(marks[row][col]+" ");
+            }
+            System.out.println();
         }
     }
 }
