@@ -2,7 +2,7 @@ package javaFullCourse.Lecture11;
 
 public class Demo {
     public static void main(String [] args) {
-        // Functioon overloading in java
+        // Function in java
         // starting with the basic example 
         //  int i;
         // int j;
@@ -15,6 +15,7 @@ public class Demo {
         int x = getNumber();
         System.out.println(x); // can also be written as System.out.pritnln(getNumber);
         System.out.println(multiply(5,6));
+        return; // optional
     }
     static int sum(int a, int b){
         int result = a+b;
