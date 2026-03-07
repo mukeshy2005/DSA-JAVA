@@ -21,12 +21,12 @@ public class Demo3 {
         // this is constructor chaining if you call any constructor we get value of forth one
         Student(){
          // even in the default constructor we can give default value
-            this("unknown",0,0,"unknown");;
+            this("unknown",0,0,"unknown");
         }
         // below we have overloading of constructor with same name but different parameter
         // creating a constructor with one parameter
         Student(String name){
-            this(name,0,0,"unknown");;
+            this(name,0,0,"unknown");
 //            this.name=name;
 
         }
