@@ -53,13 +53,13 @@ class MedicalStudent extends Student{
 /*   A
    /   \
   B     C
-
+ Hierarchical
   A is a parent and both B and C is child
  */
 
 
 /*
-multiple inheritance means A and  B  clas become parent of class C
+multiple inheritance means A and  B  class become parent of class C
    A     B ( A and B are parent )
     \   /
       C ( C is a child )
