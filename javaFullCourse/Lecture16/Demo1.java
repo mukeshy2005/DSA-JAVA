@@ -13,18 +13,18 @@ public class Demo1 {
     }
 }
 // Student is parent class (super class )
-class Student {
-    String name;
-    int rollNum;
-
-    void markAttendance(){
-        System.out.println("Marking attendance");
-    }
-}
-
-// child class
-class EngineeringStudent extends Student{
-    void attendLab(){
-        System.out.println("Attending Lab");
-    }
-}
+//public class Student {
+//    String name;
+//    int rollNum;
+//
+//    void markAttendance(){
+//        System.out.println("Marking attendance");
+//    }
+//}
+//
+//// child class
+//public class EngineeringStudent extends Student{
+//    void attendLab(){
+//        System.out.println("Attending Lab");
+//    }
+//}
