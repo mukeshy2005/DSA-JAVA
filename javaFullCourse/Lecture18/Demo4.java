@@ -38,4 +38,4 @@ class Dog extends Animal{
 // can abstract classes can have static method ---> yes
 // private methods are allowed --> private methods are allowed but only in non abstract
 //can asbtarct claases have final method ---> yes
-//can asbtrcat claases have no abstract mthodd
+//can asbtrcat claases have no abstract mthodd -- yes
