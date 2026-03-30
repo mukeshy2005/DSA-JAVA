@@ -14,7 +14,7 @@ public class Demo1 {
 class Outer {
     static int a = 10;// can acces onyl static variable
     int b = 10; // How to acces this int b
-    static class Inner {
+    static class Inner  extends Demo1{ // inner class can extend outer class also
         Outer outer;
         Inner(Outer outer){
             this.outer = outer;
@@ -26,5 +26,15 @@ class Outer {
             System.out.println(outer.b);// will show an error
         }
 
+    }
+}
+class BankAccount{
+    static class InterestCalculator{
+        static double calculateYearly(double principal, double rate){
+            return principal*rate;
+        }
+    }
+    public double computeInterest(double principal){
+        return InterestCalculator.calculateYearly(principal, 1.5);
     }
 }
