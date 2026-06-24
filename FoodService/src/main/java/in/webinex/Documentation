@@ -1,0 +1,4 @@
+1. at the place dependency injection i used IOC (inversion of control) .
+problem --> it can be used to create only one bean. in my case i have the interface PaymentService .
+Class credit and  Class debit both implement the PaymentService . but i can only create bean of one class
+Solution ---> use @Primary at any one beans . but it does not completely solve the problem
