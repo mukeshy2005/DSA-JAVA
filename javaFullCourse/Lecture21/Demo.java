@@ -15,7 +15,7 @@ public class Demo {
     }
 }
 // creating a immutable class
-// not purely immutable class
+// not purely immutable class 
 final class Student{
     private final int age ;
     private final String name;

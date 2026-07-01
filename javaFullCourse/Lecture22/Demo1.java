@@ -6,7 +6,9 @@ public class Demo1 {
         Student1 s2 = new Student1("mukesh",21);
         Student1 s3 = null; // this  way we will recieve null  pointer exception
         Integer i = 28; // class cast exception
-        System.out.println(s1.equals(i)); // this will return false (will only compare the references
+        System.out.println(s1.equals(s2)); // this will return false (will only compare the references
+        System.out.println(s1.hashCode()== s2.hashCode()); // value of the object are same but the hashcode are not same
+        // we need to make the hashcode also ture or same for the same value object
     }
 }
 // we can Override the equals method
@@ -29,7 +31,7 @@ class Student1 {
             return false;
         }
         Student1 s = (Student1)obj;
-        return (this.name == s.name && this.age == s.age);  // will return because comparing the value instead of reference variable
+        return (this.name == s.name && this.age == s.age);  // will return true because comparing the value instead of reference variable
         // use the reference variable used above
     }
 

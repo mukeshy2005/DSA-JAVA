@@ -1,5 +1,5 @@
 package javaFullCourse.Lecture19;
-
+// Local class
 public class Demo6 {
     public static void main(String[] args) {
         Outer4 o = new Outer4 ();

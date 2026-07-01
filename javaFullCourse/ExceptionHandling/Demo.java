@@ -6,12 +6,12 @@ public class Demo {
         int a = 5;
         int b = 0;
 
-        methodA(a,b);
+        methodC(a,b);
     }
-    public static void methodA(int a , int b){
-        methodB(a,b);
+    public static void methodC(int a , int b){
+        methodD(a,b);
     }
-    public static void methodB(int a, int b){
+    public static void methodD(int a, int b){
         System.out.println(a/b);
     }
 }

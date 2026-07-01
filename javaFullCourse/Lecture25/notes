@@ -1,0 +1,6 @@
+String is immutable which is good for password hashes but it consumes lots of memory as each time we update the string
+a new object is created .
+while StringBuilder or StringBuffer are mutable String .
+. StringBuilder is not thread safe
+. StringBuffer is thread safe
+. both comes from a class called abstractStringBuilder

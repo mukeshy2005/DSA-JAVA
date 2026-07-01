@@ -1,4 +1,4 @@
-package javaFullCourse.Lecture24;
+ package javaFullCourse.Lecture24;
 
 public class Demo7 {
     public static void main(String[] args) {
